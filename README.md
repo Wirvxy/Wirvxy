@@ -1,62 +1,113 @@
-<h1 align="center">Hi, I'm Monssif El Haouari 👋</h1>
-<h3 align="center">Cybersecurity Engineering Student @ ENSIASD · Blue Team / SOC in progress 🛡️</h3>
-
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=2EA043&center=true&vCenter=true&width=560&lines=IT+Security+%26+Digital+Trust+%40+ENSIASD;Network+Security+%C2%B7+IDS%2FIPS+%C2%B7+Active+Directory;Secure+backends+%C2%B7+CI%2FCD+security;TryHackMe+SOC+Level+1+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="./header.svg" width="100%" alt="Monssif El Haouari — Cybersecurity Engineering Student · Blue Team & SOC"/>
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/monssif-el-haouari/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="https://tryhackme.com/p/Wirvxy"><img src="https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/monssif-el-haouari/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117"/></a>
+  <a href="https://tryhackme.com/p/Wirvxy"><img src="https://img.shields.io/badge/TryHackMe-Wirvxy-00ff9c?style=for-the-badge&logo=tryhackme&logoColor=white&labelColor=0d1117"/></a>
+  <a href="https://github.com/Wirvxy/soc-journey"><img src="https://img.shields.io/badge/SOC_Journey-Notes-00e5ff?style=for-the-badge&logo=gitbook&logoColor=white&labelColor=0d1117"/></a>
+  <img src="https://komarev.com/ghpvc/?username=Wirvxy&label=VISITORS&color=ff2e63&style=for-the-badge"/>
 </p>
 
----
+<p align="center">
+  <img src="./journey.svg" width="100%" alt="Terminal log of my cybersecurity journey"/>
+</p>
 
-### 🧑‍💻 About me
-- 🎓 **Ingénieur d'État** student in *IT Security & Digital Trust* at **ENSIASD – Université Ibn Zohr** (2026–2029)
-- 🌐 DUT in *Network & Security Management* (GRS) – EST Fès
-- 🛡️ Aiming for **SOC / Blue Team**: detection, log & network analysis, incident response
-- 🌱 Currently: **TryHackMe SOC Level 1** → documented in [soc-journey](https://github.com/Wirvxy/soc-journey)
-- 💬 Arabic · French · English
+## 🗂️ Case files
 
-### 💼 Experience
-- **Network Security Intern: IDS/IPS implementation** · CHU Hassan II Fès *(Apr–May 2026)*
-  Deployed a network intrusion detection & prevention system across the hospital infrastructure.
-- **IT Support & Helpdesk Intern** · INTELCIA Meknès *(Jul–Aug 2025)*
-  Workstation deployment & cloning, Active Directory integration, incident management with JIRA.
+```yaml
+case_2026_04:
+  org: CHU Hassan II · Fès
+  role: Network Security Intern
+  mission: Deploy an IDS/IPS across the hospital network infrastructure
+  status: DEPLOYED
 
-### 🚀 Featured projects
-| Project | What | My role |
+case_2025_07:
+  org: INTELCIA · Meknès
+  role: IT Support & Helpdesk Intern
+  mission: Workstation deployment & cloning, Active Directory integration, JIRA incident management
+  status: CLOSED
+```
+
+## 🛰️ Operations
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🛰️ <a href="https://github.com/Wirvxy/crew-health-compass">Crew Health Compass</a></h3>
+      <sub><b>NASA Space Apps 2026</b> · team of 4 · 48h</sub>
+      <p>Offline-first health monitoring for astronauts on deep-space missions.</p>
+      <p><b>🔐 My part: backend security</b></p>
+      <ul>
+        <li>FastAPI trust boundary: every input validated</li>
+        <li>Server-side sessions, HttpOnly + SameSite cookies</li>
+        <li>SHA-256 hash-chained audit log</li>
+        <li>CI: pip-audit, npm audit, gitleaks, 200+ tests</li>
+      </ul>
+      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+      <img src="https://img.shields.io/badge/AppSec-ff2e63?style=flat-square&logo=letsencrypt&logoColor=white"/>
+      <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📷 <a href="https://github.com/Wirvxy/Brokenlens">Brokenlens</a></h3>
+      <sub><b>Solo project</b> · open source (MIT)</sub>
+      <p>Free camera PWA for iPhones with a broken main lens: it skips the damaged camera and uses the working ones directly.</p>
+      <br/>
+      <h3>🗑️ SmartBin</h3>
+      <sub><b>EST Fès</b> · team project</sub>
+      <p>IoT smart-waste platform: sensors → real-time dashboard + mobile app.</p>
+      <img src="https://img.shields.io/badge/LoRa-1a1a1a?style=flat-square"/>
+      <img src="https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=mqtt&logoColor=white"/>
+      <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white"/>
+      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+    </td>
+  </tr>
+</table>
+
+## 🧰 Arsenal
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=linux,kali,ubuntu,windows,powershell,bash,py,fastapi,java,postgres,sqlite,docker,githubactions,git,arduino,vscode&perline=8" alt="Skills"/>
+</p>
+
+<p align="center">
+  <b>Blue Team stack (in training)</b><br/><br/>
+  <img src="https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Elastic-005571?style=for-the-badge&logo=elastic&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MITRE_ATT%26CK-C8102E?style=for-the-badge&logoColor=white"/>
+  <img src="https://img.shields.io/badge/IDS%2FIPS-ff2e63?style=for-the-badge&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Active_Directory-0078D4?style=for-the-badge&logo=windows&logoColor=white"/>
+</p>
+
+<details>
+<summary><b>🛡️ Open the SOC playbook I'm building</b></summary>
+<br/>
+
+| Phase | Skills | Where I train |
 |---|---|---|
-| 🛰️ [**Crew Health Compass**](https://github.com/Wirvxy/crew-health-compass) · *NASA Space Apps 2026* | Offline-first astronaut health-monitoring prototype | Backend & security: FastAPI trust boundary, server-side sessions (HttpOnly/SameSite), SHA-256 hash-chained audit log, CI with pip-audit/npm audit + gitleaks, 200+ pytest tests |
-| 📷 [**Brokenlens**](https://github.com/Wirvxy/Brokenlens) | Free camera PWA for iPhones with a broken main lens | Solo project |
-| 🗑️ **SmartBin** · *EST Fès* | IoT smart waste platform: sensors → real-time dashboard + mobile app | LoRa/MQTT IoT pipeline, PostgreSQL, JWT auth |
+| 🔎 **Detect** | SIEM queries, alert triage, IDS/IPS rules | TryHackMe SOC L1 · Splunk · Elastic |
+| 🧬 **Investigate** | Log analysis, network traffic (pcap), phishing analysis, MITRE ATT&CK mapping | Wireshark · CyberDefenders |
+| 🚨 **Respond** | Incident reports, containment, documentation | SOC L1 case work · write-ups in [soc-journey](https://github.com/Wirvxy/soc-journey) |
 
-### 🧰 Tools & Tech
-**Security:** IDS/IPS · Network security · Active Directory · AppSec · Secret scanning (gitleaks)
-**Blue Team (learning):** Splunk · Wireshark · Elastic · MITRE ATT&CK
-**Dev:** Python · FastAPI · Java · SQL/PostgreSQL · Docker · GitHub Actions
-**IoT:** LoRa · MQTT · Arduino
+</details>
 
-<p>
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Windows%20Server-0078D6?style=flat-square&logo=windows&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=mqtt&logoColor=white"/>
-</p>
+## 📡 Mission status
 
-### 📈 Learning progress
-| Platform | Path | Status |
+| Track | Platform | Status |
 |---|---|---|
-| TryHackMe | SOC Level 1 | 🟡 In progress |
-| TryHackMe | Advent of Cyber 2026 | ⏳ December |
+| SOC Level 1 | TryHackMe | ![](https://img.shields.io/badge/IN_PROGRESS-f2cc60?style=flat-square) |
+| Advent of Cyber 2026 | TryHackMe | ![](https://img.shields.io/badge/DECEMBER-8b949e?style=flat-square) |
+| Ingénieur d'État · IT Security & Digital Trust | ENSIASD | ![](https://img.shields.io/badge/YEAR_1_%2F_3-00e5ff?style=flat-square) |
 
-### 📊 GitHub stats
+## 🐍 Contribution hunt
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Wirvxy/Wirvxy/output/snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Wirvxy/Wirvxy/output/snake.svg"/>
+  <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/Wirvxy/Wirvxy/output/snake-dark.svg"/>
+</picture>
+
 <p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=Wirvxy&show_icons=true&theme=tokyonight&hide_border=true"/>
-  <img height="160" src="https://streak-stats.demolab.com?user=Wirvxy&theme=tokyonight&hide_border=true"/>
+  <img src="./footer.svg" width="100%" alt="Packets flowing from endpoint through IDS/IPS and SIEM to the analyst"/>
 </p>
