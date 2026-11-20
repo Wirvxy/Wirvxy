@@ -53,9 +53,9 @@ case_2025_07:
       <sub><b>Solo project</b> · open source (MIT)</sub>
       <p>Free camera PWA for iPhones with a broken main lens: it skips the damaged camera and uses the working ones directly.</p>
       <br/>
-      <h3>🗑️ SmartBin</h3>
+      <h3>🗑️ <a href="https://github.com/Wirvxy/smartbin-iot">SmartBin</a></h3>
       <sub><b>EST Fès</b> · team project</sub>
-      <p>IoT smart-waste platform: sensors → real-time dashboard + mobile app.</p>
+      <p>IoT smart-waste platform: LoRa sensors → AWS IoT → real-time dashboard + mobile app. Security-reviewed.</p>
       <img src="https://img.shields.io/badge/LoRa-1a1a1a?style=flat-square"/>
       <img src="https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=mqtt&logoColor=white"/>
       <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white"/>
